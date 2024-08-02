@@ -1,6 +1,6 @@
 # 物品管理システム
 ## 説明
-これはJetson NanoとWebカメラを使用して物品を管理するアプリケーションです。Webカメラに映る人と物体を認識します。その状態でボタン（borrow/return）を押すといつだれが何をどうしたのかという情報がCSVとラインに送られます。カメラに映る人はクラス分類によって特定可能です。カメラに映る物体は物体検出を行うことで認識することができます。
+これはJetson NanoとWebカメラを使用して物品を管理するアプリケーションです。Webカメラに映る人と物体を同時に認識します。その状態でボタン（borrow/return）を押すといつだれが何をどうしたのかという情報がCSVとラインに送られます。カメラに映る人は画像のクラス分類によって識別します。カメラに映る物体は物体検出を行うことで認識することができます。
 
 ## 背景
 職場にはPCやキーボード，コード類など様々な物品が存在します．それらの物品を正しく管理しなければなりませんが，時間と手間がかかります．そのため，物品管理を自動的に行うことができるシステムがあると便利だとと考えました．そこで考えたものが，Webカメラから人と物品を同時に認識し，その情報をJetson上で管理するというシステムです．
@@ -29,23 +29,28 @@ apt-get install python3-tk
 ```
 
 ### LINEトークン発行
+37行目のaccess_tokenにLINEトークンを書き込んで保存
+```
 cd /jetson-inference/python/examples/goods-management/
 vi image_detect_net.py
-37行目のaccess_tokenにLINEトークンを書き込んで保存
+```
+![image05](images/image05.png)
 
 ### 実行
+dockerコンテナ内のターミナルで以下のコマンドを実行する。すると、以下の画像に示すような虹色のGUIとカメラ画像が表示され、物品管理システムが起動する。
+```
 cd /jetson-inference/python/examples/goods-management/
 python3 image_detect_net.py /dev/video0
-
-実行すると以下の画像に示すような虹色のGUIとカメラ画像が表示される。
+```
 ![image01](images/image01.png)
 
 ### 操作方法
 1. 机の上に物品を置き、物品と自分の顔がカメラで認識できるように写す。
 2. 左上のラベルが正しいこと、物品が検出されていることを確認する。
+![image03](images/image03.png)
 3. borrow/returnをクリックする
+![image04](images/image04.png)
 4. LINEにカメラ画像とメッセージが送られる
 ![image02](images/image02.png)
 
-### 独自の学習
 
