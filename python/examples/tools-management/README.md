@@ -1,6 +1,6 @@
 # Tools Management System
 ## Features
-This is tools management system using Jetson Nano and the webcam. It recognizes a person and tools on the webcam simultaneously. If you click on the button in that state, information about "who did what" and "when" is sent to CSV and LINE. The person in webcam is identified by image classification.　Tools in webcam is recognized by image object detection.
+This is tools management system using Jetson Nano and the webcam. It recognizes a person and tools on the webcam simultaneously. If you click on the button in that state, information about "who did what" and "when" is sent to CSV and LINE. The person in webcam is identified by image classification. Tools in webcam is recognized by image object detection.
 
 ## Story
 There are many kinds of tools in a workspace. For example PC, keyboard and cables. We have to manage them but it takes a lot of time and effort. So, we thought it would be useful to create a system that automatically manages tools.
