@@ -44,7 +44,6 @@ vi image_detect_net.py
 ![image01](images/image01.png)
 
 ### Program running
-
 Enter the following command on the terminal in the docker container. Then the rainbow colored GUI and camera view will be displayed and the tools management system is activated.
 
 ```
@@ -63,6 +62,10 @@ python3 image_detect_net.py /dev/video0
 ![image03](images/image03.png)
 
 ![image04](images/image04.png)
+
+### changing management tools
+There is a list of labels for the tools to be managed on line 136 of the program. You can set tools you want to manage by changing labels in the list. <br>
+![image05](images/image05.png)
 
 ## Author
 - ayakasakurai0213 <br>
