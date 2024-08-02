@@ -65,7 +65,16 @@ python3 image_detect_net.py /dev/video0
 
 ### changing management tools
 There is a list of labels for the tools to be managed on line 136 of the program. You can set tools you want to manage by changing labels in the list. <br>
+
 ![image05](images/image05.png)
+
+#### Default management tools
+- keyboard
+- mouse
+- cup
+- bottle
+- cell phone
+- book
 
 ## Author
 - ayakasakurai0213 <br>
