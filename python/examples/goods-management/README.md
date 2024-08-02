@@ -34,7 +34,7 @@ apt-get install python3-tk
 
 ### LINEトークン発行
 LINE Notifyにログインしアクセストークンを発行する。<br>
-LINE Notify: https://firestorage.jp/business/line-notify/
+LINE Notify: [https://firestorage.jp/business/line-notify/](https://notify-bot.line.me/ja/)
 
 プログラムの37行目に発行したアクセストークンを書き込んで保存する。
 ```
