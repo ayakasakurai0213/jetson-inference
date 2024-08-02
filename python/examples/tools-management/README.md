@@ -43,6 +43,19 @@ vi image_detect_net.py
 ```
 ![image01](images/image01.png)
 
+### changing tools you can manage
+There is a list of labels for the tools to be managed on line 136 of the program. You can set tools you want to manage by changing labels in the list. <br>
+
+![image02](images/image02.png)
+
+#### Default tools you can manage
+- keyboard
+- mouse
+- cup
+- bottle
+- cell phone
+- book
+
 ### Program running
 Enter the following command on the terminal in the docker container. Then the rainbow colored GUI and camera view will be displayed and the tools management system is activated.
 
@@ -50,7 +63,7 @@ Enter the following command on the terminal in the docker container. Then the ra
 cd /jetson-inference/python/examples/tools-management/
 python3 image_detect_net.py /dev/video0
 ```
-![image02](images/image02.png)
+![image03](images/image03.png)
 
 ### Operation
 > 1. Place the webcam so that the desk appears in the lower half of the camera screen.
@@ -59,22 +72,9 @@ python3 image_detect_net.py /dev/video0
 > 4. Click on "borrow" or "return".
 > 5. Camera veiw and messages are sent to your LINE.
 
-![image03](images/image03.png)
-
 ![image04](images/image04.png)
 
-### changing management tools
-There is a list of labels for the tools to be managed on line 136 of the program. You can set tools you want to manage by changing labels in the list. <br>
-
 ![image05](images/image05.png)
-
-#### Default management tools
-- keyboard
-- mouse
-- cup
-- bottle
-- cell phone
-- book
 
 ## Author
 - ayakasakurai0213 <br>
