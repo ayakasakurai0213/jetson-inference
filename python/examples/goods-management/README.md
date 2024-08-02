@@ -33,12 +33,15 @@ apt-get install python3-tk
 ```
 
 ### LINEトークン発行
-37行目のaccess_tokenにLINEトークンを書き込んで保存
+LINE Notifyにログインしアクセストークンを発行する。<br>
+LINE Notify: https://firestorage.jp/business/line-notify/
+
+プログラムの37行目に発行したアクセストークンを書き込んで保存する。
 ```
 cd /jetson-inference/python/examples/goods-management/
 vi image_detect_net.py
 ```
-![image05](images/image05.png)
+![image01](images/image01.png)
 
 ### 実行
 dockerコンテナ内のターミナルで以下のコマンドを実行する。すると、以下の画像に示すような虹色のGUIとカメラ画像が表示され、物品管理システムが起動する。
@@ -46,20 +49,18 @@ dockerコンテナ内のターミナルで以下のコマンドを実行する�
 cd /jetson-inference/python/examples/goods-management/
 python3 image_detect_net.py /dev/video0
 ```
-![image01](images/image01.png)
-
-### 操作方法
-1. カメラ画面の下半分に机が写るような位置にwebカメラを設置する。
-
-2. 机の上に物品を置き、物品と自分の顔がカメラで認識できるように写す。
-
-3. 左上のラベルが正しいこと、物品が検出されていることを確認する。<br>
-![image03](images/image03.png)
-
-4. borrow/returnをクリックする<br>
-![image04](images/image04.png)
-
-5. LINEにカメラ画像とメッセージが送られる<br>
 ![image02](images/image02.png)
 
+### 操作方法
+> 1. カメラ画面の下半分に机が写るような位置にwebカメラを設置する。
+> 2. 机の上に物品を置き、物品と自分の顔がカメラで認識できるように写す。
+> 3. 左上のラベルが正しいこと、物品が検出されていることを確認する。
+> 4. borrow/returnをクリックする。
+> 5. LINEにカメラ画像とメッセージが送られる
 
+![image03](images/image03.png)
+![image04](images/image04.png)
+
+## 著者
+- ayakasakurai0213
+- 
