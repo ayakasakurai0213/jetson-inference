@@ -7,6 +7,7 @@
 
 ## デモ
 具体的な動作については以下のURLからデモ動画をご覧ください。
+https://drive.google.com/file/d/1nlDC7s7iDI67seOBCiGJYuB6_nZgzsO1/view?usp=sharing
 
 ## 使い方
 ### インストール
@@ -39,7 +40,7 @@ python3 image_detect_net.py /dev/video0
 実行すると以下の画像に示すような虹色のGUIとカメラ画像が表示される。
 ![image01](images/image01.png)
 
-操作方法
+### 操作方法
 1. 机の上に物品を置き、物品と自分の顔がカメラで認識できるように写す。
 2. 左上のラベルが正しいこと、物品が検出されていることを確認する。
 3. borrow/returnをクリックする
