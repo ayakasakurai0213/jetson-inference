@@ -66,4 +66,6 @@ python3 image_detect_net.py /dev/video0
 
 ## Author
 - ayakasakurai0213
-- 
+  https://github.com/ayakasakurai0213
+- C0B22078
+  https://github.com/C0B22078
