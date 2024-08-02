@@ -1,9 +1,9 @@
 # Tools Management System
 ## Features
-これはJetson NanoとWebカメラを使用して物品を管理するアプリケーションです。Webカメラに映る人と物体を同時に認識します。その状態でボタン（borrow/return）を押すといつだれが何をどうしたのかという情報がCSVとラインに送られます。カメラに映る人は画像のクラス分類によって識別します。カメラに映る物体は物体検出を行うことで認識することができます。
+This is tools management system using Jetson Nano and the webcam. It recognizes a person and tools on the webcam simultaneously. If you click on the button in that state, information about "who did what" and "when" is sent to CSV and LINE. The person in webcam is identified by image classification.　Tools in webcam is recognized by image object detection.
 
 ## Story
-職場にはPCやキーボード，コード類など様々な物品が存在します．それらの物品を正しく管理しなければなりませんが，時間と手間がかかります．そのため，物品管理を自動的に行うことができるシステムがあると便利だとと考えました．そこで考えたものが，Webカメラから人と物品を同時に認識し，その情報をJetson上で管理するというシステムです．
+There are many kinds of tools in a workspace. For example PC, keyboard and cables. We have to manage them but it takes a lot of time and effort. So, we thought it would be useful to create a system that automatically manages tools.
 
 ## Demo
 If you want to know more about the specific operation, please watch the demonstration video at the following URL: <br>
