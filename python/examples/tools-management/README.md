@@ -65,7 +65,7 @@ python3 image_detect_net.py /dev/video0
 ![image04](images/image04.png)
 
 ## Author
-- ayakasakurai0213
+- ayakasakurai0213 <br>
   https://github.com/ayakasakurai0213
-- C0B22078
+- C0B22078 <br>
   https://github.com/C0B22078
