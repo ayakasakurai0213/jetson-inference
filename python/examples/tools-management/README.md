@@ -55,8 +55,8 @@ python3 image_detect_net.py /dev/video0
 
 ### Operation
 > 1. Place the webcam so that the desk appears in the lower half of the camera screen.
-> 2. 机の上に物品を置き、物品と自分の顔がカメラで認識できるように写す。
-> 3. 左上のラベルが正しいこと、物品が検出されていることを確認する。
+> 2. Put tools on the desk and appear the tools and your face in the camera screen so that webcam can be recognized them.
+> 3. Check the label in the upper left corner is correct and the tools are detected.
 > 4. Click on "borrow" or "return".
 > 5. Camera veiw and messages are sent to your LINE.
 
