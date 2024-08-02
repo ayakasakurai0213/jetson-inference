@@ -10,6 +10,10 @@
 https://drive.google.com/file/d/1nlDC7s7iDI67seOBCiGJYuB6_nZgzsO1/view?usp=sharing
 
 ## 使い方
+### 使用機材
+- Jetson Nano
+- webカメラ
+
 ### インストール
 Jetsonのローカル上で以下のコマンドを実行することで、プログラムをcloneする。
 ```
@@ -45,12 +49,17 @@ python3 image_detect_net.py /dev/video0
 ![image01](images/image01.png)
 
 ### 操作方法
-1. 机の上に物品を置き、物品と自分の顔がカメラで認識できるように写す。
-2. 左上のラベルが正しいこと、物品が検出されていることを確認する。
+1. カメラ画面の下半分に机が写るような位置にwebカメラを設置する。
+
+2. 机の上に物品を置き、物品と自分の顔がカメラで認識できるように写す。
+
+3. 左上のラベルが正しいこと、物品が検出されていることを確認する。<br>
 ![image03](images/image03.png)
-3. borrow/returnをクリックする
+
+4. borrow/returnをクリックする<br>
 ![image04](images/image04.png)
-4. LINEにカメラ画像とメッセージが送られる
+
+5. LINEにカメラ画像とメッセージが送られる<br>
 ![image02](images/image02.png)
 
 
