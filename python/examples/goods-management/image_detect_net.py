@@ -184,9 +184,9 @@ while True:
         print(detection)
 
         if label in obj_lst:
-                print(True)
-                display_objs.append(detection)
-                objs.append(label)
+            print(True)
+            display_objs.append(detection)
+            objs.append(label)
 
     dic[classLabel] = objs
 
